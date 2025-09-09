@@ -8,7 +8,7 @@ Tool
 **一个功能强大的后处理工具，用于处理、分析和转换计算化学中的三维网格数据，全面支持 DMol³ .grd、VASP CHGCAR 和 Gaussian .cube 等多种格式。**
 
 该工具的开发背景和应用已在我们的研究论文中详细介绍：
-> Wang, X., Zhang, R., Yang, X., et al. (20XX). Theoretical Investigation of Pd and Sc Decorated PtS2 Monolayer with Enhanced and Strain-Tunable Sensing Properties for Toxic Gases from LIB Thermal Runaway. DOI: [].
+> Wang, X., Zhang, R., et al. (2025). Theoretical Investigation of Pd and Sc Decorated PtS2 Monolayer with Enhanced and Strain-Tunable Sensing Properties for Toxic Gases from LIB Thermal Runaway. DOI: [].
 
 `AtomGrid Toolkit` 旨在解决计算化学领域，特别是 DMol³ 用户面临的体数据（volumetric data）互操作性挑战。它通过提供稳健的格式转换和定量分析功能，打通了 DMol³ 与 Bader、Critic2、VESTA、VMD 等主流分析和可视化软件之间的数据壁垒。
 

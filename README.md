@@ -3,7 +3,7 @@ Tool
 # AtomGrid Toolkit
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg  )](https://doi.org/10.5281/zenodo.XXXXXXX) 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg  )](https://doi.org/10.5281/zenodo.17089071) 
 
 **一个功能强大的后处理工具，用于处理、分析和转换计算化学中的三维网格数据，全面支持 DMol³ .grd、VASP CHGCAR 和 Gaussian .cube 等多种格式。**
 

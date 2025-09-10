@@ -1,10 +1,12 @@
-# DMol3
-Tool
-# AtomGrid Toolkit
+# DMol3 - AtomGrid Toolkit
+
+<details>
+<summary><strong>🇬🇧 English README (Click to expand)</strong></summary>
+
+<br>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17089071.svg  )](https://doi.org/10.5281/zenodo.17089071) 
-
 
 **A powerful post-processing tool for processing, analyzing, and converting 3D grid data from computational chemistry, with full support for formats like DMol³ .grd, VASP CHGCAR, and Gaussian .cube.**
 
@@ -30,9 +32,19 @@ The development context and application of this toolkit are detailed in our rese
 This tool requires Python 3 and the NumPy library.
 
 1.  **Ensure you have Python 3 and NumPy installed**:
-```bash
-pip install numpy
+    ```bash
+    pip install numpy
+    ```
 
+</details>
+
+<details>
+<summary><strong>🇨🇳 中文说明 (点击展开)</strong></summary>
+
+<br>
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17089071.svg)](https://doi.org/10.5281/zenodo.17089071) 
 
 **一个功能强大的后处理工具，用于处理、分析和转换计算化学中的三维网格数据，全面支持 DMol³ .grd、VASP CHGCAR 和 Gaussian .cube 等多种格式。**
 
@@ -45,11 +57,11 @@ pip install numpy
 
 ## 主要功能
 
-**网格数据计算**：支持对体积数据文件`.grd`、VASP `CHGCAR` 和 Gaussian `.cube` 格式进行加减运算。
-**一维曲线分析**：可沿任意晶格轴（x, y, z）进行包含平面平均电荷密度 Δρ(z) 和电荷位移曲线 ΔQ(z)在内等多种定量分析。
-**通用格式转换**：在 DMol³ 输出的非标准格式的`.grd`、VASP `CHGCAR` 和 Gaussian `.cube` 格式之间进行无缝、精确的相互转换。
-**结构信息整合**：在转换过程中，可以从外部 `.cif` 文件读入原子结构信息，并将其整合到输出的 `CHGCAR` 或 `.cube` 文件中。
-**几何鲁棒性**：完全支持非正交晶胞，并能正确处理不同格式间的单位换算（Å/Bohr）和坐标系定义。
+*   **网格数据计算**：支持对体积数据文件`.grd`、VASP `CHGCAR` 和 Gaussian `.cube` 格式进行加减运算。
+*   **一维曲线分析**：可沿任意晶格轴（x, y, z）进行包含平面平均电荷密度 Δρ(z) 和电荷位移曲线 ΔQ(z)在内等多种定量分析。
+*   **通用格式转换**：在 DMol³ 输出的非标准格式的`.grd`、VASP `CHGCAR` 和 Gaussian `.cube` 格式之间进行无缝、精确的相互转换。
+*   **结构信息整合**：在转换过程中，可以从外部 `.cif` 文件读入原子结构信息，并将其整合到输出的 `CHGCAR` 或 `.cube` 文件中。
+*   **几何鲁棒性**：完全支持非正交晶胞，并能正确处理不同格式间的单位换算（Å/Bohr）和坐标系定义。
 
 ---
 
@@ -58,5 +70,8 @@ pip install numpy
 本工具依赖于 Python 3 和 NumPy 库。
 
 1.  **确保已安装 Python 3 和 NumPy**：
-```bash
-pip install numpy
+    ```bash
+    pip install numpy
+    ```
+
+</details>

@@ -5,6 +5,35 @@ Tool
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17089071.svg  )](https://doi.org/10.5281/zenodo.17089071) 
 
+
+**A powerful post-processing tool for processing, analyzing, and converting 3D grid data from computational chemistry, with full support for formats like DMol³ .grd, VASP CHGCAR, and Gaussian .cube.**
+
+The development context and application of this toolkit are detailed in our research paper:
+> Wang, X., Zhang, R., et al. (2025). Theoretical Investigation of Pd and Sc Decorated PtS2 Monolayer with Enhanced and Strain-Tunable Sensing Properties for Toxic Gases from LIB Thermal Runaway. DOI: [Your Paper's DOI Here].
+
+`AtomGrid Toolkit` is designed to solve the interoperability challenges of volumetric data faced by users in the field of computational chemistry, particularly those using DMol³. By providing robust format conversion and quantitative analysis capabilities, it bridges the data gap between DMol³ and mainstream analysis and visualization software such as Bader, Critic2, VESTA, and VMD.
+
+---
+
+## Key Features
+
+*   **Arithmetic on Grid Data**: Supports arithmetic operations (addition and subtraction) on volumetric data files, including `.grd`, VASP `CHGCAR`, and Gaussian `.cube` formats.
+*   **1D Profile Analysis**: Performs a variety of quantitative analyses along any lattice axis (x, y, z), including the calculation of plane-averaged charge density (Δρ(z)) and charge displacement curves (ΔQ(z)).
+*   **Universal Format Conversion**: Provides seamless and accurate conversion between the non-standard DMol³ `.grd` format, VASP `CHGCAR`, and Gaussian `.cube`.
+*   **Structural Information Integration**: Allows for the integration of atomic structural information from an external `.cif` file into the output `CHGCAR` or `.cube` files during conversion.
+*   **Geometric Robustness**: Offers full support for non-orthogonal cells, with correct handling of unit conversions (Å/Bohr) and coordinate system definitions across different formats.
+
+---
+
+## Installation
+
+This tool requires Python 3 and the NumPy library.
+
+1.  **Ensure you have Python 3 and NumPy installed**:
+```bash
+pip install numpy
+
+
 **一个功能强大的后处理工具，用于处理、分析和转换计算化学中的三维网格数据，全面支持 DMol³ .grd、VASP CHGCAR 和 Gaussian .cube 等多种格式。**
 
 该工具的开发背景和应用已在我们的研究论文中详细介绍：

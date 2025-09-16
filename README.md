@@ -11,7 +11,7 @@
 **A powerful post-processing tool for processing, analyzing, and converting 3D grid data from computational chemistry, with full support for formats like DMol³ .grd, VASP CHGCAR, and Gaussian .cube.**
 
 The development context and application of this toolkit are detailed in our research paper:
-> Wang, X., Zhang, R., et al. (2025). Theoretical Investigation of Pd and Sc Decorated PtS2 Monolayer with Enhanced and Strain-Tunable Sensing Properties for Toxic Gases from LIB Thermal Runaway. DOI: [Your Paper's DOI Here].
+> Wang, X., Zhang, R., et al. (2025). Theoretical Investigation of Pd and Sc Decorated PtS2 Monolayer with Enhanced and Strain-Tunable Sensing Properties for Toxic Gases from LIB Thermal Runaway. DOI: [].
 
 `AtomGrid Toolkit` is designed to solve the interoperability challenges of volumetric data faced by users in the field of computational chemistry, particularly those using DMol³. By providing robust format conversion and quantitative analysis capabilities, it bridges the data gap between DMol³ and mainstream analysis and visualization software such as Bader, Critic2, VESTA, and VMD.
 
